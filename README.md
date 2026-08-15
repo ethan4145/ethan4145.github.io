@@ -1,1 +1,11 @@
-# ethan4145.github.io
+# Ethan Shih
+
+## Education
+B.S. in Mechanical Engineering
+
+## Experience
+[placeholder]
+
+## Projects
+
+AI Grand Prix
