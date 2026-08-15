@@ -1,11 +1,13 @@
-# Ethan Shih
+# Projects
 
-## Education
-B.S. in Mechanical Engineering
+### Autonomous Drone Racing Controller
 
-## Experience
-[placeholder]
+I developed a Python autonomy stack to compete in Anduril's AI Grand Prix Competition.
 
-## Projects
+### Air Engine Powered Music Box
 
-AI Grand Prix
+### Gyroscope Top
+
+### Centrifugal Impeller
+
+### Custom Wheel Rim
