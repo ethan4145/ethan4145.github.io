@@ -1,13 +1,25 @@
 # Projects
 
-### Autonomous Drone Racing Controller
+<div class="project-grid">
 
-I developed a Python autonomy stack to compete in Anduril's AI Grand Prix Competition.
+<a class="project-card" href="/projects/ai-gp/">
+  
+  <img src="/ai_gp/ai_gp_profile.jpg" alt="Autonomous Drone Racing">
 
-### Air Engine Powered Music Box
+  <div class="project-overlay">
+  <h3>Autonomous Drone Racing Controller</h3>
+  </div>
 
-### Gyroscope Top
+</a>
 
-### Centrifugal Impeller
+</div>
 
-### Custom Wheel Rim
+<a class="project-card" href="/projects/music-box/">
+  
+  <img src="/cad/elbow_air_engine_profile.jpg" alt="Air Engine Powered Music Box">
+
+  <div class="project-overlay">
+    <h3>Air Engine Powered Music Box</h3>
+  </div>
+  
+</a>
