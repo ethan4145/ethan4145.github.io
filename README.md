@@ -1,19 +1,25 @@
 # Projects
 
-<div class="project-grid">
+<h2 class="project-section-title first-section">Autonomous Systems</h2>
+
+<div class="project-grid large-grid">
   <a class="project-card" href="/projects/ai-gp/">
     <img src="/ai_gp/ai_gp_profile.jpg" alt="Autonomous Drone Racing">
 
     <div class="project-overlay">
-      <h3>Autonomous Drone<br>Racing Controller</h3>
+      <h3>Autonomous Drone Racing Controller</h3>
     </div>
   </a>
+</div>
 
+<h2 class="project-section-title">Mechanical Design & CAD</h2>
+
+<div class="project-grid">
   <a class="project-card" href="/projects/cad/">
     <img src="/cad/elbow_air_engine_profile.jpg" alt="Air Engine Powered Music Box">
 
     <div class="project-overlay">
-      <h3>Air Engine Powered<br>Music Box</h3>
+      <h3>Air Engine Powered Music Box</h3>
     </div>
   </a>
 
@@ -38,6 +44,26 @@
 
     <div class="project-overlay">
       <h3>Wheel Rim</h3>
+    </div>
+  </a>
+</div>
+
+<h2 class="project-section-title">Design and Build</h2>
+
+<div class="project-grid">
+  <a class="project-card" href="/projects/design_builds/">
+    <img src="/design_builds/storage_system_profile.jpg" alt="Storage System">
+
+    <div class="project-overlay">
+      <h3>Roofing Material Storage System</h3>
+    </div>
+  </a>
+
+  <a class="project-card" href="/projects/design_builds/">
+    <img src="/design_builds/rube_goldberg_profile.jpg" alt="Rube Goldberg Machine">
+
+    <div class="project-overlay">
+      <h3>Rube Goldberg Machine</h3>
     </div>
   </a>
 </div>
