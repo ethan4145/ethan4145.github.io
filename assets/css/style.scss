@@ -91,9 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-card img {
   width: 100%;
+  max-width: none;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 40%;
+  object-position: 50% 50%;
   transition: transform 0.3s ease;
 
   margin: 0;
@@ -108,8 +109,11 @@ h1, h2, h3, h4, h5, h6 {
   inset: auto 0 0 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
   padding: 14px;
-  text-align: center;
+  text-align: left;
   background: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
@@ -121,6 +125,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-card:hover img {
     transform: scale(1.03);
+}
+
+.project-date {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 @media screen and (max-width: 700px) {

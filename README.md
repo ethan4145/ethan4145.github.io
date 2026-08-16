@@ -8,6 +8,7 @@
 
     <div class="project-overlay">
       <h3>Autonomous Drone Racing Controller</h3>
+      <span class="project-date">Summer 2026</span>
     </div>
   </a>
 </div>
@@ -20,6 +21,7 @@
 
     <div class="project-overlay">
       <h3>Air Engine Powered Music Box</h3>
+      <span class="project-date">Spring 2026</span>
     </div>
   </a>
 
@@ -28,6 +30,7 @@
 
     <div class="project-overlay">
       <h3>Gyroscope Top</h3>
+      <span class="project-date">Spring 2026</span>
     </div>
   </a>
 
@@ -36,6 +39,7 @@
 
     <div class="project-overlay">
       <h3>Centrifugal Impeller</h3>
+      <span class="project-date">Spring 2026</span>
     </div>
   </a>
 
@@ -44,11 +48,12 @@
 
     <div class="project-overlay">
       <h3>Wheel Rim</h3>
+      <span class="project-date">Spring 2026</span>
     </div>
   </a>
 </div>
 
-<h2 class="project-section-title">Design and Build</h2>
+<h2 class="project-section-title">Design & Build</h2>
 
 <div class="project-grid">
   <a class="project-card" href="/projects/design_builds/">
@@ -56,6 +61,7 @@
 
     <div class="project-overlay">
       <h3>Roofing Material Storage System</h3>
+      <span class="project-date">Fall – Spring 2026</span>
     </div>
   </a>
 
@@ -64,6 +70,7 @@
 
     <div class="project-overlay">
       <h3>Rube Goldberg Machine</h3>
+      <span class="project-date">Spring 2026</span>
     </div>
   </a>
 </div>
