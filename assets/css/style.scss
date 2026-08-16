@@ -1,7 +1,25 @@
----
----
-
 @import "{{ site.theme }}";
+
+#header_wrap .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#main_content.inner {
+  max-width: 1200px;
+}
+
+#main_content > h1 {
+  text-align: center;
+}
+
+body {
+  font-family: Cambria, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Cambria, serif;
+}
 
 .portfolio-header {
   display: flex;
@@ -31,11 +49,69 @@
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 50px;
+
+  width: 100%;
+  margin: 30px auto;
+}
+
+.project-card {
+    display: block;
+    position: relative;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
 .project-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 40%;
+  transition: transform 0.3s ease;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  display: block;
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.project-overlay h3 {
+    color: white;
+    margin: 0;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-card:hover img {
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-overlay {
+    opacity: 1;
+    inset: auto 0 0 0;
+    padding: 14px;
+    justify-content: flex-start;
+  }
+
 }
