@@ -10,7 +10,7 @@ title: Autonomous Drone Racing Controller
   </h1>
 
   <img
-    class="aigp-banner"
+    class="project-banner"
     src="/ai_gp/ai_gp_logo.jpg"
     alt="AI Grand Prix">
 

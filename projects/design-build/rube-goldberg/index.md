@@ -10,13 +10,11 @@ title: Rube Goldberg Machine
   </h1>
 
   <p class="cad-project-description">
-    I designed and modeled an elbow air engine assembly with both hardware components and custom parts. The unique aspect of this design is the music box it connects to and powers. I completed engineering drawings for each custom part with GD&T, along with an assembly drawing, an exploded assembly drawing, and 3D renders.
+    I joined ASME's Rube Goldberg Team, helping design and build the machine for the Rube Goldberg Machine Contest. I discovered creative ways to transfer mechanical energy and strengthed my CAD and workshop abilities in a team setting. See the part of the machine I worked on below!
   </p>
 
-  <iframe
-    class="cad-pdf"
-    src="/cad/ELBOW_AIR_ENGINE.pdf"
-    title="Air Engine Powered Music Box PDF">
-  </iframe>
+  <video class="project-video" controls preload="metadata">
+      <source src="/ai_gp/rube_goldberg_web.mp4?v=2" type="video/mp4">
+  </video>
 
 </div>
