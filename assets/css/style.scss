@@ -4,17 +4,17 @@
 @import "{{ site.theme }}";
 
 #header_wrap .inner {
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 #main_content.inner {
-  max-width: 1100px;
+  max-width: 900px;
   text-align: center;
 }
 
 #footer_wrap .inner{
-  max-width: 1100px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -24,6 +24,31 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Cambria, serif;
+}
+
+/* ==============================
+   Home Page Text
+   ============================== */
+
+.portfolio-title h1 {
+  font-size: 30px;
+}
+
+.portfolio-title p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.project-section-title {
+  font-size: 28px;
+}
+
+.project-overlay h3 {
+  font-size: 18px;
+}
+
+.project-date {
+  font-size: 14px;
 }
 
 .portfolio-header {
@@ -55,13 +80,13 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   border-bottom: 2px solid #cccccc;
   padding-bottom: 8px;
-  margin-top: 60px;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
 .first-section {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .project-grid {
@@ -176,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 .project-section h2 {
   margin-bottom: 10px;
 
-  font-size: 24px;
+  font-size: 20px;
   font-style: italic;
   font-weight: normal;
 
@@ -188,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 18px;
 
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.45;
 }
 
@@ -215,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 6px;
   text-align: left;
 
-  font-size: 14px;
+  font-size: 12px;
   color: #666666;
 }
 
@@ -261,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 12px;
 
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   text-align: left;
 
   background: rgba(0, 0, 0, 0.5);
@@ -307,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 25px;
 
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.45;
 }
 
@@ -329,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 700px) {
   .cad-project-description {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .cad-pdf {
@@ -466,5 +491,24 @@ h1, h2, h3, h4, h5, h6 {
 
   .storage-stacked-right {
     aspect-ratio: 4 / 3;
+  }
+}
+
+/* Rube Goldberg video */
+
+.rube-video {
+  display: block;
+
+  width: 50%;
+  height: auto;
+
+  margin: 25px auto;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 700px) {
+  .rube-video {
+    width: 100%;
   }
 }
