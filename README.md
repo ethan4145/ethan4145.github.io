@@ -1,3 +1,9 @@
+<div class="header-links">
+  <a href="/about/">About</a>
+  <a href="https://www.linkedin.com/in/ethan-shih/" target="_blank">LinkedIn</a>
+  <a href="mailto:ethan4145@gmail.com">Email</a>
+</div>
+
 # Projects
 
 <h2 class="project-section-title first-section">Autonomous Systems</h2>

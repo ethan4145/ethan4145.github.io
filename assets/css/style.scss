@@ -4,17 +4,17 @@
 @import "{{ site.theme }}";
 
 #header_wrap .inner {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 #main_content.inner {
-  max-width: 900px;
+  max-width: 1000px;
   text-align: center;
 }
 
 #footer_wrap .inner{
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -69,10 +69,37 @@ h1, h2, h3, h4, h5, h6 {
   flex: 1;
 }
 
-@media screen and (max-width: 600px) {
-  .portfolio-header {
-    flex-direction: column;
-    align-items: flex-start;
+/* Header navigation links */
+
+.header-links {
+  position: absolute;
+  top: -155px;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  z-index: 10;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+  .header-links {
+    position: static;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -154,7 +181,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-date {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 0.8;
   white-space: nowrap;
   flex-shrink: 0;
 }
